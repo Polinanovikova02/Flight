@@ -1,0 +1,84 @@
+.background{
+    position: relative;
+    overflow: hidden;
+}
+.setka{
+    width: 100%;
+}
+.lines{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.planet{
+    position: absolute;
+    left: calc(50% - 1240px/2 - 0.5px);
+    top: calc(50% - 810px/2);
+}
+.blue{
+    position: absolute;
+    width: 1535px;
+    height: 1050px;
+    left: calc(50% - 1535px/2 - 0.5px);
+    top: calc(50% - 1050px/2);
+    animation: start_scale 1s linear;
+}
+            /* @keyframes start_scale {
+                0% {transform: scale(1.8);}
+                100% {transform: scale(1);}
+            } */
+.white{
+    position: absolute;
+    left: calc(50% - 1075px/2 - 0.5px);
+    top: calc(50% - 1050px/2);
+    animation: rotate 1.3s linear;
+}
+            /* @keyframes rotate {
+                0% {transform: rotate(-50deg);}
+                100% {transform: rotate(0deg);}
+            } */
+.plane{
+    position: absolute;
+    left: calc(50% - 744px/2);
+    top: calc(50% - 223px/2 - 95.5px);
+}
+.button1{
+    cursor: pointer;
+    position: absolute;
+    width: 325px;
+    height: 100px;
+    left: calc(50% - 325px/2);
+    top: calc(50% - 100px/2 + 121px);
+    background: linear-gradient(180deg, #FFFFFF 0%, #F8F8F8 7.29%, #D5D5D5 94.27%, #ACBCC2 100%);
+    box-shadow:
+    0 1px rgba(255,255,255,.2) inset,
+    0 3px 5px rgba(0,1,6,.5),
+    0 0 1px 1px rgba(0,1,6,.2);
+    border-radius: 20px;
+    transition: .2s ease-in-out;
+}
+.button1:hover{
+    background: linear-gradient(180deg, #FFFFFF 0%, #f0f0f0 7.29%, #bdbdbd 94.27%, #9facb1 100%);
+}
+.button1:active{
+  background: linear-gradient(180deg,  #8b989c 0%,  #9facb1 100%);
+  box-shadow:
+   0 0 1px rgba(0, 0, 0, 0.637) inset,
+   0 2px 3px rgba(0, 0, 0, 0.76) inset,
+   0 1px 1px rgba(255, 255, 255, 0.5);
+}
+h1{
+    padding: 20px 45px;
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+}
+.surface_1{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
