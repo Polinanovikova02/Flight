@@ -232,29 +232,24 @@ h1{
     left: 1335px;
     top: 204px;
 }
-.b1:after{
+.b1:after, .b3:after{
     content: ' ';
     position: absolute;
     width: 126px;
     height: 126px;
-    background: linear-gradient(229.27deg, #59064A 13.01%, #128BB6 85.55%);;
     left: 11%;
     top: 11%;
     border-radius: 50%;
+}
+.b1:after{
+    background: linear-gradient(229.27deg, #59064A 13.01%, #128BB6 85.55%);
 }
 .b3{
     left: 206px;
     top: 814px;
 }
 .b3:after{
-    content: ' ';
-    position: absolute;
-    width: 126px;
-    height: 126px;
     background: #59064A;
-    left: 11%;
-    top: 11%;
-    border-radius: 50%;
 }
 .b2, .b4{
     position: absolute;
@@ -267,14 +262,16 @@ h1{
     left: 1374px;
     top: 716.49px;
 }
-.b2:after{
+.b2:after, .b4:after{
     content: ' ';
     position: absolute;
     width: 75px;
     height: 75px;
-    background: linear-gradient(313.88deg, #59064A 0.36%, #128BB6 99.51%);;
     left: 17%;
     top: 17%;
+}
+.b2:after{
+    background: linear-gradient(313.88deg, #59064A 0.36%, #128BB6 99.51%);;
 }
 .b4{
     transform: rotate(-11.46deg);
@@ -282,11 +279,5 @@ h1{
     top: 128.85px;
 }
 .b4:after{
-    content: ' ';
-    position: absolute;
-    width: 75px;
-    height: 75px;
     background: #128BB6;
-    left: 17%;
-    top: 17%;
 }
