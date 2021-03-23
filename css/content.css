@@ -236,3 +236,19 @@ h1{
     left: 206px;
     top: 814px;
 }
+.b2, .b4{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    background: white;
+}
+.b2{
+    transform: rotate(-24.97deg);
+    left: 1374px;
+    top: 716.49px;
+}
+.b4{
+    transform: rotate(-11.46deg);
+    left: 186px;
+    top: 128.85px;
+}
