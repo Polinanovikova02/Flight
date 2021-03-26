@@ -14,7 +14,7 @@ $(document).ready(function(){
     $(".line_centre, .centre").addClass("entrance_surface");
     $(".cross1, .cross2").addClass("entrance_surface");
     $(".b-top, .b-right, .b-bottom, .b-left").addClass("entrance_surface");
-    $(".interface").addClass("entrance_surface");
+    $(".interface, .details").addClass("entrance_surface");
 
 
     $(".surface_1").addClass("entrance_surface");

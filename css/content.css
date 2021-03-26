@@ -144,7 +144,7 @@ h1{
             height: 881px;
             left: calc(50% - 521px/2);
             top: calc(50% - 881px/2 + 150px);
-            background: linear-gradient(180deg, #B37F23 8.96%, #422F0D 45.55%, #000000 74.88%);
+            background: linear-gradient(180deg, #bd7f16 8.96%, #422F0D 45.55%, #000000 74.88%);
             box-shadow: 0px 0px 22px #000000;
         }
 .centre{
@@ -253,10 +253,58 @@ h1{
     left: calc(50% - 85px/2 - 468.5px);
     top: calc(50% - 85px/2 + 20.5px);
 }
-.interface{
+.interface, .details {
     position: absolute;
     opacity: 0;
 }
+        .ellipse1{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: calc(50% - 40px/2 + 1475px);
+            top: calc(50% - 40px/2 + 415px);
+            background: linear-gradient(90deg, #128BB6 0%, #59064A 100%);
+            border: 13px solid #000000;
+            border-radius: 50%;
+        }
+        .ellipse2{
+            position: absolute;
+            width: 86px;
+            height: 86px;
+            left: calc(50% - 84px/2 + 1190px);
+            top: calc(50% - 84px/2 + 1045px);
+            background: linear-gradient(166.72deg, #128BB6 7.39%, #59064A 92.94%);
+            border: 13px solid #000000;
+            border-radius: 50%;
+        }
+        .ellipse3{
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            left: calc(50% - 55px/2 + 122px);
+            top: calc(50% - 55px/2 + 380px);
+            background: #59064A;
+            border: 13px solid #000000;
+            border-radius: 50%;
+        }
+        .ellipse4{
+            position: absolute;
+            border-radius: 50%;
+            width: 155px;
+            height: 155px;
+            background: linear-gradient(126.2deg, #128BB6 14.74%, #59064A 80.09%);
+            left: calc(50% - 156px/2 + 210px);
+            top: calc(50% - 156px/2 + 170px);
+        }
+        .ellipse5{
+            position: absolute;
+            border-radius: 50%;
+            width: 78px;
+            height: 78px;
+            background: linear-gradient(59.25deg, #59064A 18.75%, #128BB6 91.55%);
+            left: calc(50% - 156px/2 + 1530px);
+            top: calc(50% - 156px/2 + 180px);
+        }
 .white1{
     position: absolute;
     left: calc(50% - 1091px/2 + 833px);
