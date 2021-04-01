@@ -24,8 +24,3 @@
             @keyframes surface{
                 100% {opacity: 1;}
             }
-.step_top{animation: step_top 1s linear forwards; animation-iteration-count: 1}
-            @keyframes step_top{
-                0% {top: calc(50% - 30px/2 + 141px);}
-                100% {top: calc(50% - 30px/2 + 141px) + 5px;}
-            }
